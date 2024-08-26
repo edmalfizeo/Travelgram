@@ -12,23 +12,43 @@ header div {
     margin-left: 32px;
 }
 
+header div a {
+    text-decoration: none;
+}
+
+header div img {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+}
 header div h2 {
     font-weight: bold;
     font-size: 20px;
     color: #EF5F4C;
 }
 
-header nav {
+header nav ul{
     display: flex;
     gap: 20px;
     align-items: center;
     margin-right: 1.0rem;
 }
 
-header nav h3 {
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
     font-weight: 200;
     font-size: 16px;
+    text-decoration: none;
+    color: #000;
 }
+
+header nav ul a img {
+    vertical-align: middle;
+}
+
 
 #profile-pic-small {
     width: 40px;
