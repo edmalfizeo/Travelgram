@@ -1,8 +1,9 @@
 #about {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    background-color: #f8f9fa;
+    background-color: #f5f5f5;
+    gap: 350px;
 }
 
 main {
@@ -37,6 +38,7 @@ main {
     flex-direction: column;
     gap: 16px;
     width: 280px;
+    font-weight: 200;
 }
 
 #location {
