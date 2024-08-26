@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 32px;
+}
+
+header div h2 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #EF5F4C;
+}
+
+header nav {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-right: 1.0rem;
+}
+
+header nav h3 {
+    font-weight: 200;
+    font-size: 16px;
+}
+
+#profile-pic-small {
+    width: 40px;
+    height: 40px;
+}
+
+#about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-left: 32px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+#description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+#description p {
+    font-size: 16px;
+    font-weight: 200;
+    width: 400px;
+}
+
+#description h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 280px;
+}
+
+#location {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+#countries {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+#photos {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
