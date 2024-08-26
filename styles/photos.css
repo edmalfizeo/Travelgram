@@ -1,0 +1,23 @@
+#photo-galery {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    justify-content: space-evenly;
+    margin-left: 32px;
+}
+
+.card-photo {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+    object-fit: cover;
+}
+
+.card-photo img {
+    width: 286px;
+    height: 286px;
+}
+
+#last-one {
+    margin-bottom: 0;
+}
