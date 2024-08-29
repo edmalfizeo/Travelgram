@@ -58,3 +58,127 @@ main {
     align-items: center;
     gap: 8px;
 }
+
+@media screen and (min-width: 769px) and (max-width: 1265px) {
+    #about {
+        flex-direction: column; /* Alterar a direção para coluna em telas menores */
+        gap: 20px; /* Reduzir o gap para compactar os elementos */
+        padding: 20px; /* Adicionar padding para espaçamento interno */
+    }
+
+    main {
+        flex-direction: column; /* Empilhar os itens verticalmente */
+        align-items: center; /* Centralizar os itens */
+        gap: 20px; /* Reduzir o gap entre os elementos */
+        margin-left: 0; /* Remover margem esquerda para centralizar */
+        margin-top: 20px; /* Ajustar o espaçamento superior */
+        margin-bottom: 20px; /* Ajustar o espaçamento inferior */
+    }
+
+    #description {
+        width: 100%; /* Permitir que o texto use toda a largura disponível */
+        align-items: center; /* Centralizar o texto */
+        text-align: center; /* Centralizar o texto dentro do container */
+    }
+
+    #description p {
+        width: auto; /* Ajustar a largura para ser flexível */
+        font-size: 14px; /* Reduzir o tamanho da fonte */
+    }
+
+    #description h1 {
+        font-size: 28px; /* Reduzir o tamanho do título */
+    }
+
+    #info {
+        width: 100%; /* Permitir que a seção use toda a largura disponível */
+        align-items: center; /* Centralizar os itens */
+    }
+
+    #location, #countries, #photos {
+        justify-content: center; /* Centralizar os ícones e textos */
+    }
+
+}
+
+@media screen and (min-width: 498px) and (max-width: 768px) {
+    #about {
+        flex-direction: column;
+        gap: 15px;
+        padding: 16px;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        margin-left: 0;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    #description {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    #description p {
+        width: auto;
+        font-size: 14px;
+    }
+
+    #description h1 {
+        font-size: 24px;
+    }
+
+    #info {
+        width: 100%;
+        align-items: center;
+    }
+
+    #location, #countries, #photos {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 498px) {
+    #about {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-left: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #description {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    #description p {
+        width: auto;
+        font-size: 12px;
+    }
+
+    #description h1 {
+        font-size: 24px;
+    }
+
+    #info {
+        width: 100%;
+        align-items: center;
+    }
+
+    #location, #countries, #photos {
+        justify-content: center;
+    }
+}

@@ -55,3 +55,83 @@ header nav ul a img {
     width: 40px;
     height: 40px;
 }
+
+@media screen and (min-width: 769px) and (max-width: 1265px) {
+    header {
+        justify-content: space-between; /* Altera a justificação para distribuir os itens */
+        gap: 20px; /* Reduz o gap para caber melhor em telas menores */
+        padding: 16px 10px; /* Ajusta o padding para ocupar menos espaço vertical */
+    }
+
+    header div {
+        margin-left: 10px; /* Reduz o espaçamento à esquerda */
+    }
+
+    header div h2 {
+        font-size: 18px; /* Reduz o tamanho da fonte do título */
+    }
+
+    header nav ul {
+        gap: 15px; /* Reduz o gap entre os itens do menu */
+        margin-right: 0.5rem; /* Ajusta a margem direita */
+    }
+
+    #profile-pic-small {
+        width: 35px; /* Reduz o tamanho da imagem do perfil */
+        height: 35px;
+    }
+}
+
+@media screen and (min-width: 498px) and (max-width: 768px) {
+    header {
+        justify-content: space-between;
+        gap: 15px;
+        padding: 12px 8px;
+    }
+
+    header div {
+        margin-left: 8px;
+    }
+
+    header div h2 {
+        font-size: 16px;
+    }
+
+    header nav ul {
+        gap: 10px;
+        margin-right: 0.5rem;
+    }
+
+    #profile-pic-small {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+
+@media screen and (max-width: 498px) {
+    header {
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        flex-direction: row; /* Alinhar elementos em uma linha */
+        gap: 8px;
+    }
+
+    header div {
+        margin-left: 0;
+    }
+
+    header div h2 {
+        font-size: 14px; /* Reduzir o tamanho do texto "Travelgram" */
+    }
+
+    header nav ul li:not(:last-child):not(:first-child) { 
+        display: none; /* Esconder itens de navegação exceto o primeiro (lupa) e o último (perfil) */
+    }
+
+    #profile-pic-small {
+        width: 30px; /* Ajustar tamanho da imagem de perfil */
+        height: 30px;
+    }
+}
