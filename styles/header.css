@@ -119,13 +119,16 @@ header nav ul a img {
     }
 
     header div {
-        margin-left: 0;
+        margin-left: 2px;
     }
 
     header div h2 {
         font-size: 14px; /* Reduzir o tamanho do texto "Travelgram" */
     }
 
+    header nav ul {
+        margin-right: 0;
+    }
     header nav ul li:not(:last-child):not(:first-child) { 
         display: none; /* Esconder itens de navegação exceto o primeiro (lupa) e o último (perfil) */
     }
