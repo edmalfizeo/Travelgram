@@ -86,6 +86,7 @@
             width: 100%;
             height: auto;
             max-width: none; /* Ensure images fit the container */
+            margin-bottom: 5px;
         }
     }
 }
